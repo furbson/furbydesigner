@@ -1,0 +1,336 @@
+<?xml-stylesheet type="text/css" href="FURBDRESSCODECSSS.css"?>
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title>Furby Dress Up Game</title>
+        
+        <link rel= "stylesheet" type="text/css" href="dressup.css">
+        
+        <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+        <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.11.3.min.js"></script>
+        <script src="dressup.js"></script>
+        <script type="text/javascript">
+
+</script>
+    </head>
+    <body>
+        
+        <ul>
+            <li><button class="btn btn-default" id="fur_button" type="button">Fur</button></li>
+            <li><button class="btn btn-default" id="innerear_button" type="button" >Inner Ear</button></li>
+            <li><button class="btn btn-default" id="outerear_button" type="button">Outer Ear</button></li>
+            <li><button class="btn btn-default" id="fplate_button" type="button">Faceplate</button></li>
+            <li><button class="btn btn-default" id="iris_button" type="button">Iris</button></li>
+            <li><button class="btn btn-default" id="sc_button" type="button">Sclera</button></li>
+            <li><button class="btn btn-default" id="beak_button" type="button">Beak</button></li>
+            <li><button class="btn btn-default" id="belly_button" type="button">Belly</button></li>
+            <li><button class="btn btn-default" id="feet_button" type="button">Feet</button></li>
+            <li><button class="btn btn-default" id="hair_button" type="button">Hair</button></li>
+            <li><button class="btn btn-default" id="tail_button" type="button">Tail</button></li>
+            <li><button class="btn btn-default" id="mane_button" type="button">Mane</button></li>
+            <li><button class="btn btn-default" id="pattern_button" type="button">Fur Pattern</button></li>
+            
+            </li>
+        </ul>
+        
+        <img id="character" src="https://puu.sh/DRNw1.png" />
+        
+        <img id="fur1" class="fur" src="https://puu.sh/DSSCB/4e0f322608.png" />
+        <img id="fur2"  class="fur" src="https://puu.sh/DSSCP/f8123998eb.png" />
+        <img id="fur3" class="fur" src="https://puu.sh/DSSCL/86c138c715.png" />
+        <img id="fur4" class="fur" src="https://puu.sh/DSSD7/8e395b84ed.png" />
+        <img id="fur5" class="fur" src="https://puu.sh/DSSCS/84f66c81fe.png" />
+        <img id="fur6" class="fur" src="https://puu.sh/DSSD2/170a715a72.png" />
+        <img id="fur7" class="fur" src="https://puu.sh/DSSCC/65235997fc.png" />
+        <img id="fur8" class="fur" src="https://puu.sh/DSSCD/a41a09b519.png" />
+        <img id="fur9" class="fur" src="https://puu.sh/DSSCH/591d571a7f.png" />
+        <img id="fur10" class="fur" src="https://puu.sh/DSSCX/6bc736f53d.png" />
+        <img id="fur11" class="fur" src="https://puu.sh/DSSCR/868766b118.png" />
+        <img id="fur12" class="fur" src="https://puu.sh/DSSD4/ee662cdb4e.png" />
+        <img id="fur13" class="fur" src="https://puu.sh/DSSD9/c2d3d8bf07.png" />
+        <img id="fur14" class="fur" src="https://puu.sh/DSSCU/b41a66f784.png" />
+        <img id="fur15" class="fur" src="https://puu.sh/DSSCQ/ea2d7066fc.png" />
+        <img id="fur16" class="fur" src="https://puu.sh/DSSCJ/737a0aecd3.png" />
+        <img id="fur17" class="fur" src="https://puu.sh/DSSCK/ea6701b5db.png" />
+        <img id="fur18" class="fur" src="https://puu.sh/DSSD0/839ddf19b1.png" />
+        <img id="fur19" class="fur" src="https://puu.sh/DSSD1/28c1a88d6f.png" />
+        <img id="fur20" class="fur" src="https://puu.sh/DSSCG/16c1d70892.png" />
+        <img id="fur21" class="fur" src="https://puu.sh/DSSCI/c57754814a.png" />
+        <img id="fur22" class="fur" src="https://puu.sh/DSSCT/862e15ec7a.png" />
+        <img id="fur23" class="fur" src="https://puu.sh/DSSCO/aad3d03eff.png" />
+        <img id="fur24" class="fur" src="https://puu.sh/DSSD6/49645e2e97.png" />
+        <img id="fur25" class="fur" src="https://puu.sh/DSSCM/59afbf520f.png" />
+        <img id="fur26" class="fur" src="https://puu.sh/DSSCE/57c9b412b9.png" />
+        <img id="fur27" class="fur" src="https://puu.sh/DSSCZ/e84ab8c2ea.png" />
+        
+        <img id="innerear1" class="innerear" src="https://puu.sh/DSSlR/5e5d478e7e.png" />
+        <img id="innerear2" class="innerear" src="https://puu.sh/DSSlU/4a837a4938.png" />
+        <img id="innerear3" class="innerear" src="https://puu.sh/DSSm1/c5f01765bb.png" />
+        <img id="innerear4" class="innerear" src="https://puu.sh/DSSm6/b8849c4c00.png" />
+        <img id="innerear5" class="innerear" src="https://puu.sh/DSSmo/984704d89d.png" />
+        <img id="innerear6" class="innerear" src="https://puu.sh/DSSmk/cf03c9a2be.png" />
+        <img id="innerear7" class="innerear" src="https://puu.sh/DSSmi/e5a933e458.png" />
+        <img id="innerear8" class="innerear" src="https://puu.sh/DSSlP/60d6466a09.png" />
+        <img id="innerear9" class="innerear" src="https://puu.sh/DSSlV/e3703cd266.png" />
+        <img id="innerear10" class="innerear" src="https://puu.sh/DSSlY/e7a95343f9.png" />
+        <img id="innerear11" class="innerear" src="https://puu.sh/DSSme/c2700b808f.png" />
+        <img id="innerear12" class="innerear" src="https://puu.sh/DSSmc/73d6a0d3b7.png" />
+        <img id="innerear13" class="innerear" src="https://puu.sh/DSSml/15fa4a9d93.png" />
+        <img id="innerear14" class="innerear" src="https://puu.sh/DSSmp/c7cbc33709.png" />
+        <img id="innerear15" class="innerear" src="https://puu.sh/DSSmq/f862eb446b.png" />
+        <img id="innerear16" class="innerear" src="https://puu.sh/DSSma/939662bef8.png" />
+        <img id="innerear17" class="innerear" src="https://puu.sh/DSSm7/463ac10d9e.png" />
+        <img id="innerear18" class="innerear" src="https://puu.sh/DSSm3/421744eb2e.png" />
+        <img id="innerear19" class="innerear" src="https://puu.sh/DSSmm/932a43213e.png" />
+        <img id="innerear21" class="innerear" src="https://puu.sh/DSSmg/a3b17b65b1.png" />
+        <img id="innerear22" class="innerear" src="https://puu.sh/DSSlT/1a8ac1c660.png" />
+        <img id="innerear23" class="innerear" src="https://puu.sh/DSSmb/67b371f3b2.png" />
+        <img id="innerear24" class="innerear" src="https://puu.sh/DSSmd/27cc854b2b.png" />
+        <img id="innerear25" class="innerear" src="https://puu.sh/DSSm9/ac117c1747.png" />
+        <img id="innerear26" class="innerear" src="https://puu.sh/DSSmn/be681549f2.png" />
+        <img id="innerear26" class="innerear" src="https://puu.sh/DSSm8/310cc2a927.png" />
+        
+        
+        <img id="outerear1" class="outerear" src="https://puu.sh/DSSu3/d95a94b4eb.png" />
+        <img id="outerear2" class="outerear" src="https://puu.sh/DSSu0/73f5de4696.png" />
+        <img id="outerear3" class="outerear" src="https://puu.sh/DSStR/bbe97c5ee5.png" />
+        <img id="outerear4" class="outerear" src="https://puu.sh/DSStF/c6ea208f70.png" />
+        <img id="outerear5" class="outerear" src="https://puu.sh/DSSu7/5f4f16fcbf.png" />
+        <img id="outerear6" class="outerear" src="https://puu.sh/DSSu6/f5ace470c3.png" />
+        <img id="outerear7" class="outerear" src="https://puu.sh/DSSu9/fd40d48389.png" />
+        <img id="outerear8" class="outerear" src="https://puu.sh/DSSu5/4a5f215525.png" />
+        <img id="outerear9" class="outerear" src="https://puu.sh/DSSu8/4838bcd319.png" />
+        <img id="outerear10" class="outerear" src="https://puu.sh/DSStG/f7c7ada8d4.png" />
+        <img id="outerear11" class="outerear" src="https://puu.sh/DSStE/22646b59b5.png" />
+        <img id="outerear12" class="outerear" src="https://puu.sh/DSStH/63bcc9f6bb.png" />
+        <img id="outerear13" class="outerear" src="https://puu.sh/DSStJ/5d9c88930e.png" />
+        <img id="outerear14" class="outerear" src="https://puu.sh/DSStP/fcbdb410a0.png" />
+        <img id="outerear15" class="outerear" src="https://puu.sh/DSStO/8e6e85ed75.png" />
+        <img id="outerear16" class="outerear" src="https://puu.sh/DSStM/1b11cfa0d9.png" />
+        <img id="outerear17" class="outerear" src="https://puu.sh/DSStN/6d93282fe5.png" />
+        <img id="outerear18" class="outerear" src="https://puu.sh/DSStL/750f655a39.png" />
+        <img id="outerear19" class="outerear" src="https://puu.sh/DSStQ/650100e17e.png" />
+        <img id="outerear20" class="outerear" src="https://puu.sh/DSStS/44c8d9a312.png" />
+        <img id="outerear21" class="outerear" src="https://puu.sh/DSStT/edfcced396.png" />
+        <img id="outerear22" class="outerear" src="https://puu.sh/DSStU/624687b6e7.png" />
+        <img id="outerear23" class="outerear" src="https://puu.sh/DSStV/876b217176.png" />
+        <img id="outerear24" class="outerear" src="https://puu.sh/DSStW/db38f47be7.png" />
+        <img id="outerear25" class="outerear" src="https://puu.sh/DSStZ/e78c648701.png" />
+        <img id="outerear26" class="outerear" src="https://puu.sh/DSStY/1a8d80126f.png" />
+        
+        <img id="fplate1" class="fplate" src="https://puu.sh/DSSbT/cf50d6d391.png" />
+        <img id="fplate2" class="fplate" src="https://puu.sh/DSSbX/458f1d3530.png" />
+        <img id="fplate3" class="fplate" src="https://puu.sh/DSSc0/49c9e3275f.png" />
+        <img id="fplate4" class="fplate" src="https://puu.sh/DSSc1/67b09bd026.png" />
+        <img id="fplate5" class="fplate" src="https://puu.sh/DSSby/ec782df4ff.png" />
+        <img id="fplate6" class="fplate" src="https://puu.sh/DSSbJ/0f2d55f9fd.png" />
+        <img id="fplate7" class="fplate" src="https://puu.sh/DSSbV/d78ef1de3d.png" />
+        <img id="fplate8" class="fplate" src="https://puu.sh/DSSbU/3f9f6962fe.png" />
+        <img id="fplate9" class="fplate" src="https://puu.sh/DSSbZ/d39a41908b.png" />
+        <img id="fplate10" class="fplate" src="https://puu.sh/DSSbx/65885986b0.png" />
+        <img id="fplate11" class="fplate" src="https://puu.sh/DSSbu/c2c714c233.png" />
+        <img id="fplate12" class="fplate" src="https://puu.sh/DSSbz/b1ee30869c.png" />
+        <img id="fplate13" class="fplate" src="https://puu.sh/DSSbw/987a359cc2.png" />
+        <img id="fplate14" class="fplate" src="https://puu.sh/DSSbB/e9d898cfe3.png" />
+        <img id="fplate15" class="fplate" src="https://puu.sh/DSSbH/02160a209a.png" />
+        <img id="fplate16" class="fplate" src="https://puu.sh/DSSbK/d830794226.png" />
+        <img id="fplate17" class="fplate" src="https://puu.sh/DSSbE/90bd3a60dd.png" />
+        <img id="fplate18" class="fplate" src="https://puu.sh/DSSbO/e5c6673cc8.png" />
+        <img id="fplate19" class="fplate" src="https://puu.sh/DSSbM/b325eb0cae.png" />
+        <img id="fplate20" class="fplate" src="https://puu.sh/DSSbW/a2f0fedbc2.png" />
+        <img id="fplate21" class="fplate" src="https://puu.sh/DSSbR/176ca27720.png" />
+        <img id="fplate22" class="fplate" src="https://puu.sh/DSSbP/f6529b24ba.png" />
+        <img id="fplate23" class="fplate" src="https://puu.sh/DSSbN/d82ed9c2b0.png" />
+        <img id="fplate24" class="fplate" src="https://puu.sh/DSSbC/b7ec30f632.png" />
+        <img id="fplate25" class="fplate" src="https://puu.sh/DSSbF/60a74f924e.png" />
+        
+        <img id="iris1" class="iris" src="https://puu.sh/DSROr/a6e682da0a.png" />
+        <img id="iris2" class="iris" src="https://puu.sh/DSROK/b3024b946b.png" />
+        <img id="iris3" class="iris" src="https://puu.sh/DSROP/f50b7c8168.png" />
+        <img id="iris4" class="iris" src="https://puu.sh/DSROz/b73e4b17e7.png" />
+        <img id="iris5" class="iris" src="https://puu.sh/DSROp/a233e078f1.png" />
+        <img id="iris6" class="iris" src="https://puu.sh/DSROn/85beb31ca2.png" />
+        <img id="iris7" class="iris" src="https://puu.sh/DSROI/649f28ec3a.png" />
+        <img id="iris8" class="iris" src="https://puu.sh/DSROF/26337e8bd6.png" />
+        <img id="iris9" class="iris" src="https://puu.sh/DSRON/9ba4ce8071.png" />
+        <img id="iris10" class="iris" src="https://puu.sh/DSROO/178c65020f.png" />
+        <img id="iris11" class="iris" src="https://puu.sh/DSROS/2ae3b3bc3c.png" />
+        <img id="iris12" class="iris" src="https://puu.sh/DSROC/62c968ab8b.png" />
+        <img id="iris13" class="iris" src="https://puu.sh/DSROy/93a30b4166.png" />
+        <img id="iris14" class="iris" src="https://puu.sh/DSROv/23465a9f27.png" />
+        <img id="iris15" class="iris" src="https://puu.sh/DSROL/bfe86ee21a.png" />
+        <img id="iris16" class="iris" src="https://puu.sh/DSROM/fc427e7e73.png" />
+        <img id="iris17" class="iris" src="https://puu.sh/DSROo/b76243b864.png" />
+        <img id="iris18" class="iris" src="https://puu.sh/DSROu/8a47873aa0.png" />
+        <img id="iris19" class="iris" src="https://puu.sh/DSROG/d59fefe3ad.png" />
+        <img id="iris20" class="iris" src="https://puu.sh/DSROE/9268f8ba20.png" />
+        <img id="iris21" class="iris" src="https://puu.sh/DSROQ/76f021a55f.png" />
+        <img id="iris22" class="iris" src="https://puu.sh/DSROA/3272a012b8.png" />
+        <img id="iris23" class="iris" src="https://puu.sh/DSROq/4b3ab06fdd.png" />
+        
+        <img id="sc1" class="sc" src="https://puu.sh/DSROX/e1f87ad4ad.png" />
+        <img id="sc2" class="sc" src="https://puu.sh/DSROW/6f29a144cd.png" />
+        
+        <img id="beak1" class="beak" src="https://puu.sh/DSS0A/98f8277428.png" />
+        <img id="beak2" class="beak" src="https://puu.sh/DSS0t/bc541c9b2c.png" />
+        <img id="beak3" class="beak" src="https://puu.sh/DSS0v/df88d5db16.png" />
+        <img id="beak4" class="beak" src="https://puu.sh/DSS0x/a55c60e3ca.png" />
+        <img id="beak5" class="beak" src="https://puu.sh/DSS0w/efadb2b4bb.png" />
+        <img id="beak6" class="beak" src="https://puu.sh/DSS03/979a78bc8b.png" />
+        <img id="beak7" class="beak" src="https://puu.sh/DSS0h/d9d1c74c83.png" />
+        <img id="beak8" class="beak" src="https://puu.sh/DSS0n/eec7c6ff34.png" />
+        <img id="beak9" class="beak" src="https://puu.sh/DSS0p/20a2d23aa1.png" />
+        <img id="beak10" class="beak" src="https://puu.sh/DSS0z/cc2746406e.png" />
+        <img id="beak11" class="beak" src="https://puu.sh/DSS07/c3cf974416.png" />
+        <img id="beak12" class="beak" src="https://puu.sh/DSS04/67c599f810.png" />
+        <img id="beak13" class="beak" src="https://puu.sh/DSS05/85ed1bae12.png" />
+        <img id="beak14" class="beak" src="https://puu.sh/DSS06/4e98ad2719.png" />
+        <img id="beak15" class="beak" src="https://puu.sh/DSS0a/70e9ebcff3.png" />
+        <img id="beak16" class="beak" src="https://puu.sh/DSS0e/1f30ac62c4.png" />
+        <img id="beak17" class="beak" src="https://puu.sh/DSS09/08158266cd.png" />
+        <img id="beak18" class="beak" src="https://puu.sh/DSS0i/82c378edba.png" />
+        <img id="beak19" class="beak" src="https://puu.sh/DSS0f/6070014e14.png" />
+        <img id="beak20" class="beak" src="https://puu.sh/DSS0r/d9af0d53c2.png" />
+        <img id="beak21" class="beak" src="https://puu.sh/DSS0o/92aefe0b4b.png" />
+        <img id="beak22" class="beak" src="https://puu.sh/DSS0u/7c1b1c17f3.png" />
+        <img id="beak23" class="beak" src="https://puu.sh/DSS0g/482169d4ab.png" />
+        <img id="beak24" class="beak" src="https://puu.sh/DSS0b/d5dfa7b0b3.png" />
+        <img id="beak25" class="beak" src="https://puu.sh/DSS0c/82b9f11f21.png" />
+        
+        <img id="belly1" class="belly" src="https://puu.sh/DSRIx/9eddfa21ea.png" />
+        <img id="belly2" class="belly" src="https://puu.sh/DSRIJ/8905b1c250.png" />
+        <img id="belly3" class="belly" src="https://puu.sh/DSRIT/6cb864acce.png" />
+        <img id="belly4" class="belly" src="https://puu.sh/DSRJ3/d8d9f7cea2.png" />
+        <img id="belly5" class="belly" src="https://puu.sh/DSRIX/7221116f71.png" />
+        <img id="belly6" class="belly" src="https://puu.sh/DSRJ2/31275798f3.png" />
+        <img id="belly7" class="belly" src="https://puu.sh/DSRIW/689be71cd2.png" />
+        <img id="belly8" class="belly" src="https://puu.sh/DSRIV/8b2cc3109c.png" />
+        <img id="belly9" class="belly" src="https://puu.sh/DSRIY/170b57ed0a.png" />
+        <img id="belly10" class="belly" src="https://puu.sh/DSRIw/44eced54bb.png" />
+        <img id="belly11" class="belly" src="https://puu.sh/DSRIv/adfe70f86c.png" />
+        <img id="belly12" class="belly" src="https://puu.sh/DSRIy/9a43a485fa.png" />
+        <img id="belly13" class="belly" src="https://puu.sh/DSRIu/8259eaafa0.png" />
+        <img id="belly14" class="belly" src="https://puu.sh/DSRIE/fac9097dbd.png" />
+        <img id="belly15" class="belly" src="https://puu.sh/DSRII/edd180358e.png" />
+        <img id="belly16" class="belly" src="https://puu.sh/DSRIC/9c4113f76e.png" />
+        <img id="belly17" class="belly" src="https://puu.sh/DSRIF/03abb5869f.png" />
+        <img id="belly18" class="belly" src="https://puu.sh/DSRIL/35085eaff3.png" />
+        <img id="belly19" class="belly" src="https://puu.sh/DSRIK/82379729e6.png" />
+        <img id="belly20" class="belly" src="https://puu.sh/DSRIR/a40c10e1b2.png" />
+        <img id="belly21" class="belly" src="https://puu.sh/DSRIQ/6264ed5273.png" />
+        <img id="belly22" class="belly" src="https://puu.sh/DSRIP/d67fd5ceda.png" />
+        <img id="belly23" class="belly" src="https://puu.sh/DSRIM/3ef9a7811f.png" />
+        <img id="belly24" class="belly" src="https://puu.sh/DSRID/fdbf7cbbd3.png" />
+        <img id="belly25" class="belly" src="https://puu.sh/DSRIB/f96f6d9d4d.png" />
+        <img id="belly26" class="belly" src="https://puu.sh/DSRIU/3bcd9a67de.png" />
+
+        <img id="feet1" class="feet" src="https://puu.sh/DSRDj/388b8dddaa.png" />
+        <img id="feet2" class="feet" src="https://puu.sh/DSRDt/b5c75c33a3.png" />
+        <img id="feet3" class="feet" src="https://puu.sh/DSRDr/0b66f06b23.png" />
+        <img id="feet4" class="feet" src="https://puu.sh/DSRDm/ba0b6ecfb5.png" />
+        <img id="feet5" class="feet" src="https://puu.sh/DSRDo/e1e6acb8dc.png" />
+        <img id="feet6" class="feet" src="https://puu.sh/DSRDc/8b7915b574.png" />
+        <img id="feet7" class="feet" src="https://puu.sh/DSRDs/b8b8d515b9.png" />
+        <img id="feet8" class="feet" src="https://puu.sh/DSRDe/4c3bbaca61.png" />
+        <img id="feet9" class="feet" src="https://puu.sh/DSRDn/eaf0f84810.png" />
+        <img id="feet10" class="feet" src="https://puu.sh/DSRDh/1d4f0887c7.png" />
+        <img id="feet11" class="feet" src="https://puu.sh/DSRDd/7130f1c695.png" />
+        <img id="feet12" class="feet" src="https://puu.sh/DSRDf/4a3b4b9b92.png" />
+        
+        <img id="hair1" class="hair" src="https://puu.sh/DSRx6.png" />
+        <img id="hair2" class="hair" src="https://puu.sh/DSRx5.png" />
+        <img id="hair3" class="hair" src="https://puu.sh/DSRx8.png" />
+        <img id="hair4" class="hair" src="https://puu.sh/DSRx7.png" />
+        <img id="hair5" class="hair" src="https://puu.sh/DSRwE.png" />
+        <img id="hair6" class="hair" src="https://puu.sh/DSRwR.png" />
+        <img id="hair7" class="hair" src="https://puu.sh/DSRx1.png" />
+        <img id="hair8" class="hair" src="https://puu.sh/DSRx2.png" />
+        <img id="hair9" class="hair" src="https://puu.sh/DSRxb.png" />
+        <img id="hair10" class="hair" src="https://puu.sh/DSRwI.png" />
+        <img id="hair11" class="hair" src="https://puu.sh/DSRwF.png" />
+        <img id="hair12" class="hair" src="https://puu.sh/DSRwH.png" />
+        <img id="hair13" class="hair" src="https://puu.sh/DSRwG.png" />
+        <img id="hair14" class="hair" src="https://puu.sh/DSRwL.png" />
+        <img id="hair15" class="hair" src="https://puu.sh/DSRwO.png" />
+        <img id="hair16" class="hair" src="https://puu.sh/DSRwS.png" />
+        <img id="hair17" class="hair" src="https://puu.sh/DSRwM.png" />
+        <img id="hair18" class="hair" src="https://puu.sh/DSRwQ.png" />
+        <img id="hair19" class="hair" src="https://puu.sh/DSRwT.png" />
+        <img id="hair20" class="hair" src="https://puu.sh/DSRwU.png" />
+        <img id="hair21" class="hair" src="https://puu.sh/DSRx0.png" />
+        <img id="hair22" class="hair" src="https://puu.sh/DSRwZ.png" />
+        <img id="hair23" class="hair" src="https://puu.sh/DSRwX.png" />
+        <img id="hair24" class="hair" src="https://puu.sh/DSRwW.png" />
+        <img id="hair25" class="hair" src="https://puu.sh/DSRxa.png" />
+        <img id="hair26" class="hair" src="https://puu.sh/DSRwK.png" />
+        <img id="hairreset" class="hair" src="https://puu.sh/DRNw1.png" />
+        
+        <img id="tail1" class="tail" src="https://puu.sh/DSRm8.png" />
+        <img id="tail2" class="tail" src="https://puu.sh/DSRm7.png" />
+        <img id="tail3" class="tail" src="https://puu.sh/DSRm9.png" />
+        <img id="tail4" class="tail" src="https://puu.sh/DSRma.png" />
+        <img id="tail5" class="tail" src="https://puu.sh/DSRlH.png" />
+        <img id="tail6" class="tail" src="https://puu.sh/DSRlR.png" />
+        <img id="tail7" class="tail" src="https://puu.sh/DSRm4.png" />
+        <img id="tail8" class="tail" src="https://puu.sh/DSRm5.png" />
+        <img id="tail9" class="tail" src="https://puu.sh/DSRmb.png" />
+        <img id="tail10" class="tail" src="https://puu.sh/DSRlE.png" />
+        <img id="tail11" class="tail" src="https://puu.sh/DSRlF.png" />
+        <img id="tail12" class="tail" src="https://puu.sh/DSRlI.png" />
+        <img id="tail13" class="tail" src="https://puu.sh/DSRlG.png" />
+        <img id="tail14" class="tail" src="https://puu.sh/DSRlJ.png" />
+        <img id="tail15" class="tail" src="https://puu.sh/DSRlK.png" />
+        <img id="tail16" class="tail" src="https://puu.sh/DSRlL.png" />
+        <img id="tail17" class="tail" src="https://puu.sh/DSRlN.png" />
+        <img id="tail18" class="tail" src="https://puu.sh/DSRlM.png" />
+        <img id="tail19" class="tail" src="https://puu.sh/DSRlQ.png" />
+        <img id="tail20" class="tail" src="https://puu.sh/DSRlT.png" />
+        <img id="tail21" class="tail" src="https://puu.sh/DSRlW.png" />
+        <img id="tail22" class="tail" src="https://puu.sh/DSRlU.png" />
+        <img id="tail23" class="tail" src="https://puu.sh/DSRlY.png" />
+        <img id="tail24" class="tail" src="https://puu.sh/DSRlZ.png" />
+        <img id="tail25" class="tail" src="https://puu.sh/DSRm1.png" />
+        <img id="tail26" class="tail" src="https://puu.sh/DSRm3.png" />
+        <img id="tailreset" class="tail" src="https://puu.sh/DRNw1.png" />
+        
+        <img id="mane1" class="mane" src="https://puu.sh/DRXgk.png" />
+        <img id="mane2" class="mane" src="https://puu.sh/DRXgm.png" />
+        <img id="mane3" class="mane" src="https://puu.sh/DRXgp.png" />
+        <img id="mane4" class="mane" src="https://puu.sh/DRXgo.png" />
+        <img id="mane5" class="mane" src="https://puu.sh/DRXfX.png" />
+        <img id="mane6" class="mane" src="https://puu.sh/DRXge.png" />
+        <img id="mane7" class="mane" src="https://puu.sh/DRXgj.png" />
+        <img id="mane8" class="mane" src="https://puu.sh/DRXgn.png" />
+        <img id="mane9" class="mane" src="https://puu.sh/DRXgr.png" />
+        <img id="mane10" class="mane" src="https://puu.sh/DRXfY.png" />
+        <img id="mane11" class="mane" src="https://puu.sh/DRXfW.png" />
+        <img id="mane12" class="mane" src="https://puu.sh/DRXg5.png" />
+        <img id="mane13" class="mane" src="https://puu.sh/DRXg4.png" />
+        <img id="mane14" class="mane" src="https://puu.sh/DRXg2.png" />
+        <img id="mane15" class="mane" src="https://puu.sh/DRXfV.png" />
+        <img id="mane16" class="mane" src="https://puu.sh/DRXga.png" />
+        <img id="mane17" class="mane" src="https://puu.sh/DRXg7.png" />
+        <img id="mane18" class="mane" src="https://puu.sh/DRXg9.png" />
+        <img id="mane19" class="mane" src="https://puu.sh/DRXgc.png" />
+        <img id="mane20" class="mane" src="https://puu.sh/DRXgb.png" />
+        <img id="mane21" class="mane" src="https://puu.sh/DRXgh.png" />
+        <img id="mane22" class="mane" src="https://puu.sh/DRXgg.png" />
+        <img id="mane23" class="mane" src="https://puu.sh/DRXgf.png" />
+        <img id="mane24" class="mane" src="https://puu.sh/DRXgd.png" />
+        <img id="mane25" class="mane" src="https://puu.sh/DRXg3.png" />
+        <img id="mane26" class="mane" src="https://puu.sh/DRXg0.png" />
+        <img id="mane27" class="mane" src="https://puu.sh/DRXfZ.png" />
+        <img id="manereset" class="mane" src="https://puu.sh/DRNw1.png" />
+        
+        <img id="pattern1" class="pattern" src="https://puu.sh/DRNyp.png" />
+        <img id="pattern2" class="pattern" src="https://puu.sh/DRNyz.png" />
+        <img id="pattern3" class="pattern" src="https://puu.sh/DRNyr.png" />
+        <img id="pattern4" class="pattern" src="https://puu.sh/DRNyy.png" />
+        <img id="pattern5" class="pattern" src="https://puu.sh/DRNyv.png" />
+        <img id="pattern6" class="pattern" src="https://puu.sh/DRNyq.png" />
+        <img id="pattern7" class="pattern" src="https://puu.sh/DRNyB.png" />
+        <img id="pattern8" class="pattern" src="https://puu.sh/DRNyA.png" />
+        <img id="pattern9" class="pattern" src="https://puu.sh/DRNyC.png" />
+        
+    </body>
+</html>
