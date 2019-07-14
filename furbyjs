@@ -1,0 +1,88 @@
+$(document).ready(function(){
+
+function ImageSwitcher(choices, i) {
+	i = 0;
+	
+	this.Next = function() {
+		hide_current_image();
+		show_next_image();
+	}
+	
+	var hide_current_image = function() {
+		if(choices){
+			choices[i].style.visibility = "hidden";
+			i += 1;
+		}
+	}
+	var show_next_image = function() {
+		if(choices){
+			if(i == (choices.length)) {
+				i = 0;
+			}
+			choices[i].style.visibility = "visible";
+		}
+	}
+}
+  
+    var fur = $(".fur");
+	var innerear = $(".innerear");
+	var outerear = $(".outerear");
+	var fplate = $(".fplate");
+	var iris = $(".iris");
+	var sc = $(".sc");
+	var feet = $(".feet");
+	var beak = $(".beak");
+	var pattern = $(".pattern");
+	var hair = $(".hair");
+	var tail = $(".tail");
+	var mane = $(".mane");
+	var belly = $(".belly");
+	var backgrounds = $(".bg");
+
+	var innerear_picker = new ImageSwitcher(innerear);
+	document.getElementById("innerear_button").onclick = function() { innerear_picker.Next(); };
+	
+	var fur_picker = new ImageSwitcher(fur);
+	document.getElementById("fur_button").onclick = function() {fur_picker.Next(); };
+	
+	var outerear_picker = new ImageSwitcher(outerear);
+	document.getElementById("outerear_button").onclick = function() {outerear_picker.Next(); };
+	
+	var fplate_picker = new ImageSwitcher(fplate);
+	document.getElementById("fplate_button").onclick = function() {fplate_picker.Next(); };
+	
+	var iris_picker = new ImageSwitcher(iris);
+	document.getElementById("iris_button").onclick = function() {iris_picker.Next(); };
+	
+	var sc_picker = new ImageSwitcher(sc);
+	document.getElementById("sc_button").onclick = function() {sc_picker.Next(); };
+	
+	var feet_picker = new ImageSwitcher(feet);
+	document.getElementById("feet_button").onclick = function() {feet_picker.Next(); };
+	
+	var beak_picker = new ImageSwitcher(beak);
+	document.getElementById("beak_button").onclick = function() {beak_picker.Next(); };
+	
+	var hair_picker = new ImageSwitcher(hair);
+	document.getElementById("hair_button").onclick = function() {hair_picker.Next(); };
+	
+	var tail_picker = new ImageSwitcher(tail);
+	document.getElementById("tail_button").onclick = function() {tail_picker.Next(); };
+	
+	var mane_picker = new ImageSwitcher(mane);
+	document.getElementById("mane_button").onclick = function() {mane_picker.Next(); };
+	
+	var belly_picker = new ImageSwitcher(belly);
+	document.getElementById("belly_button").onclick = function() {belly_picker.Next(); };
+	
+	var pattern_picker = new ImageSwitcher(pattern);
+	document.getElementById("pattern_button").onclick = function() {pattern_picker.Next(); };
+	
+	var bg_picker = new ImageSwitcher(backgrounds);
+	document.getElementById("bg_button").onclick = function() {bg_picker.Next(); };
+
+});
+
+  $("#innerear_button").click(function(){
+  $("#innerear-menu").css("visibility", "visible"); });
+  
