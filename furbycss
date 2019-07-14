@@ -1,0 +1,95 @@
+body{
+	background-color: #cc9ad6;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+
+
+img {
+	position: absolute;
+	margin-left: 15%;
+display:inline-block;
+  height:100%;
+}
+
+
+button{
+  margin-top:20%;
+}
+
+ul{
+	list-style-type: none;
+	display:inline-block;
+}
+
+
+character{
+z-index: -1000;   
+}
+
+.beak{
+	visibility:hidden;
+  z-index: 0;
+	}
+	
+.fplate{
+	visibility:hidden;
+  z-index: -1;
+	}
+
+.iris{
+	visibility:hidden;
+  z-index: -2;
+	}
+	
+.sc{
+	visibility:hidden;
+  z-index: -3;
+	}
+	
+.innerear{
+	visibility:hidden;
+  z-index: -4;
+    }
+
+.outerear{
+	visibility:hidden;
+  z-index: -5;
+	}
+	
+.feet{
+	visibility:hidden;
+  z-index: -6;
+}
+
+.belly{
+	visibility:hidden;
+  z-index: -7;
+}
+
+.pattern{
+	visibility:hidden;
+  z-index: -8;
+}
+
+.fur{
+	visibility:hidden;
+  z-index: -9;
+	}
+	
+.hair{
+	visibility:hidden;
+  z-index: -10;
+}
+
+.tail{
+	visibility:hidden;
+  z-index: -10;
+}
+
+.mane{
+	visibility:hidden;
+  z-index: -10;
+}
+
+
